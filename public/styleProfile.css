@@ -1,0 +1,387 @@
+html {
+
+    scrollbar-width: none;
+
+}
+
+.BG {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    z-index: -10;
+
+    width: 100vw;
+
+}
+
+.logo {
+
+    padding: 20px;
+
+    margin-bottom: 5px;
+  
+}
+
+.profile-container {
+
+    display: flex;
+  
+    justify-content: space-between;
+
+    margin-bottom: -30%;
+  
+}
+  
+  
+.left-column {
+  
+    padding-left: 20px;
+  
+}
+
+.left-column p {
+
+    color: #212b47;
+
+    margin-bottom: 0;
+
+}
+
+.left-column .selamat {
+
+    font-size: 24px;
+
+    font-weight: bolder;
+
+}
+
+.left-column .nama {
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+}
+  
+
+.left-column .id {
+
+    font-size: 14px;
+
+}
+  
+.right-column {
+  
+    padding-right: 20px;
+
+    padding-left: 20px;
+  
+    text-align: center;
+  
+}
+  
+  
+.circle-image {
+  
+    padding-bottom: 100%; 
+  
+}
+
+.text-container {
+
+    padding: 10px;
+
+    display: flex;
+
+}
+
+.tersimpan {
+
+    margin-left: 10px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    color: #212b47;
+
+    margin-right: 40%;
+
+}
+
+.lihat {
+
+    color: #545454;
+
+    font-size: 13px;
+    
+    cursor: pointer;
+
+}
+
+.file-container {
+  
+    display: flex;
+
+    flex-wrap: nowrap;
+  
+    width: 95%;
+
+    height: 125px;
+  
+    overflow-x: auto;
+
+    overflow-y: hidden;
+    
+    padding: 10px;
+    
+    white-space: nowrap;
+
+    scrollbar-width: none;
+  
+}
+
+.file-container > * {
+
+    flex-shrink: 0;
+  
+}
+
+.rectangle {
+
+    background-image: url('size-rectangle.png');
+  
+    background-repeat: no-repeat; 
+  
+    width: 374px;
+  
+    height: 125px;
+  
+    box-sizing: border-box; 
+  
+    position: relative;
+
+    margin-right: 15px;
+
+}
+  
+.row {
+
+    margin-top: 0;
+  
+    display: flex;
+
+    margin-left: 32%;
+  
+}
+
+.row h3 {
+
+    font-size: 12px;
+
+    font-weight: bolder;
+
+}
+
+
+.row p {
+
+    font-size: 10px;
+
+}
+  
+.row img {
+  
+    width: 20px; 
+  
+    height: 20px;
+  
+    margin-right: 10px;
+
+    cursor: pointer;
+  
+}
+
+.row span {
+
+    font-size: 12px;
+
+    color: #545454;
+
+}
+
+.row:last-child {
+
+    margin-left: 70%;
+
+}
+
+.setting-container {
+
+    display: flex;
+  
+    flex-wrap: nowrap;
+  
+    overflow-x: auto;
+
+    scrollbar-width: none;
+  
+  }
+
+.akun {
+
+    margin-left: 20px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    color: #212b47;
+
+}
+  
+  
+  .yellow-rectangle, .blue-rectangle {
+
+    cursor: pointer;
+
+    width: 141px;
+
+    display: flex;
+  
+    margin: 10px;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    padding: 40px; 
+  
+    border-radius: 10px;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  
+  .yellow-rectangle {
+  
+    background-color: #ffc700; 
+  
+  }
+  
+  
+  .blue-rectangle {
+  
+    background-color: #5baeb7; 
+  
+  }
+  
+  
+  .yellow-rectangle img, .blue-rectangle img {
+  
+    width: 40px;
+  
+    height: 40px;
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  .yellow-rectangle span, .blue-rectangle span {
+  
+    font-size: 15px;
+
+    font-weight: bolder;
+  
+    color: #212b47;
+
+    text-align: center;
+  
+  }
+
+.qa-container, .quit-container {
+
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 10%; 
+
+    margin-left: 10px;
+
+    cursor: pointer;
+
+  }
+
+.qa-container{
+
+    margin-top: 20px;
+
+    padding-bottom: 5px;
+
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+.quit-container {
+
+    margin-top: 15px;
+
+}
+  
+  
+  .qa-container img, .quit-container img {
+  
+    width: 29px; 
+  
+  }
+  
+  
+  .qa-container p, .quit-container p {
+  
+    margin: 0; 
+  
+  }
+
+.footgroup {
+
+    position: absolute;
+
+    bottom: -8%;
+
+}
+
+  .footer-icons {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+}
+
+.footer-icons a {
+
+    padding-top: 25%;
+
+    z-index: 4;
+  
+    margin: 0 10px;
+  
+}
+  
+  
+.footer-icons img {
+  
+    width: 24px;
+  
+    height: 24px;
+
+}
